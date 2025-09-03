@@ -1,0 +1,5 @@
+# Development-specific settings
+# This file is used to override _config.yml for local development
+
+imagemagick:
+  enabled: false
