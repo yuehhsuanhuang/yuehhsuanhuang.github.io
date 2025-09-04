@@ -23,3 +23,12 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// My custom styles
+.photo-caption {
+  font-size: 0.8rem;  // 字體大小設定為預設的 80%，你可以調整這個數字
+  font-style: italic; // 讓文字變斜體
+  color: #7a8288;    // 也可以順便改個顏色，讓它看起來更像註解文字
+}
+
+
