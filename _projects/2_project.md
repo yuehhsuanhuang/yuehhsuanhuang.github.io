@@ -1,81 +1,51 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Implement human face recognition and character verification by image processing techniques
+description: Digital Image and Signal Processing Lab, National Taiwan University  
+#img: assets/img/3.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: research-related
+
+
 ---
+Mentor: [Prof. Jian-Jiun Ding](https://www.ee.ntu.edu.tw/profile1.php?teacher_id=942019)
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+I implemented two distinct verification systems to build hands-on skills in Python, image processing, and classical machine learning.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+For face detection, I realized a multi-stage pipeline. The process began by segmenting skin-tone pixels with a custom-trained SVM, followed by ellipse fitting to isolate potential face regions. Convolutional methods were then employed to generate eye and mouth maps for eye & mouth detection. By enforcing strict geometric consistency rules, the system achieved a flawless **1.0 precision and a 0.955 F1-score on our private dataset with 80+ pictures.**
+
+For signature verification, I trained a SVM classifier by experimenting with different feature combination. These features quantified zonal pixel density and the geometric relationships between stroke inflection points, enabling the model to achieve **88% accuracy in distinguishing between 1,000 genuine and forged samples.** 
+
+
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/project2_skinsvm.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-1">
+        {% include figure.liquid loading="eager" path="assets/img/projects/project2_mouthmap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+    
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, white regions mean detected skin areas, while black regions mean non-skin areas. On the right, the red dots show possible positions of mouth.  
 </div>
+
+
+
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/project2_differentfeature.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-2 mt-md-1">
+        {% include figure.liquid loading="eager" path="assets/img/projects/project2_findingspecialpoints.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    On the left, the picture is divided into 5 regions, horizontally and vertically. Two types of features could be found by counting the number of colored points in each region. On the right, the blue dots show the turns in the handwriting. 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
