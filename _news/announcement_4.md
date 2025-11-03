@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Currently interning with the AI Future Technology department at [TVBS](https://www.tvbs.com.tw/). (Ongoing)
+Currently interning with the AI Future Technology department at [TVBS](https://www.tvbs.com.tw/){: .link-chip }. (Ongoing)
 

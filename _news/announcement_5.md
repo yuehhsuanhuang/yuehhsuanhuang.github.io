@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I got accepted to the [Business Analytics Program, College of Management at National Taiwan University](https://management.ntu.edu.tw/course/BA_P)
+I got accepted to the [Business Analytics Program, College of Management at National Taiwan University](https://management.ntu.edu.tw/course/BA_P){: .link-chip }.
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Liver! So Tired"
-description: A Projection-based C++/SDL Game, EE1004 Computer Programming
+title: Liver! So Tired
+description: A Projection-based C++/SDL Game, EE1004 Computer Programming, National Taiwan University, Taipei, Taiwan
 #img:
 importance: 4
 category: industry-related

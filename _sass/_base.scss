@@ -1423,3 +1423,22 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// Chip-style link appearance used on call-to-action links
+.link-chip {
+  display: inline;
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.35rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.8em;
+  color: var(--global-theme-color);
+  background-color: color-mix(in srgb, var(--global-theme-color) 15%, transparent);
+  transition: background-color 0.2s ease, color 0.2s ease;
+
+  &:hover,
+  &:focus {
+    color: var(--global-hover-text-color);
+    background-color: color-mix(in srgb, var(--global-theme-color) 45%, transparent);
+  }
+}

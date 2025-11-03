@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started pursuing a bachelor's degree in Electrical Engineering at [National Taiwan University](https://www.ntu.edu.tw/). (Ongoing)
+Started pursuing a bachelor's degree in Electrical Engineering at [National Taiwan University](https://www.ntu.edu.tw/){: .link-chip }. (Ongoing)

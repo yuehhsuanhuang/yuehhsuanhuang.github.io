@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of my projects.
+description: I am grateful for the opportunity to have gained the following experience. My mentors have been invaluable in my journey. They not only helped me to think like an engineer but also inspired me to pay attention to the world surrounding me. Feel free to check out these experiences.
 nav: true
 nav_order: 3
 display_categories: [industry-related, research-related]

@@ -1,14 +1,15 @@
 ---
 layout: page
 title: An Automated Alarm System with Sleep Detection Implementation
-description: EE4057 Electrical Engineering Lab (Biomedical Engineering)
+description: EE4057 Electrical Engineering Lab (Biomedical Engineering), National Taiwan University, Taipei, Taiwan
 #img: assets/img/1.jpg
 importance: 3
 category: industry-related
 ---
 
 
-[Demo video link](https://youtu.be/zepfCfav4Hw)
+[Demo video link](https://youtu.be/zepfCfav4Hw){: .link-chip } | 
+[GitHub Repo](https://github.com/yuehhsuanhuang/2024Fall-Bio-Lab-Final-Project){: .link-chip }
 
 I was responsible for implementing the signal processing step for a smart alarm prototype designed to enhance sleep quality by dynamically setting an alarm based on true sleep onset. Our system addresses the failure of common apps by using precise EEG data instead of unreliable microphone audio.
 

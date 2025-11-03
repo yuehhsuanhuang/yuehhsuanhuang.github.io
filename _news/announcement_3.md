@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Completed the undergraduate summer research internship program at the [Institute of Physics, Academia Sinica](https://www.phys.sinica.edu.tw/).
+Completed the undergraduate summer research internship program at the [Institute of Physics, Academia Sinica](https://www.phys.sinica.edu.tw/){: .link-chip }.
 

@@ -8,7 +8,14 @@ collection: books
 
 ## Books that I am reading, have read, or will read (2025)
 
-> 子彈是餘生 *(still reading this)*
+> Think Like a Monk: Train Your Mind for Peace and Purpose Every Day
+>
+> -- Shetty, J. (2020). Simon & Schuster Audio.
+
+---
+
+
+> 子彈是餘生 
 >
 > -- 寺尾哲也 (2022)
 

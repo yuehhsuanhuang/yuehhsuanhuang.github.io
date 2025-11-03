@@ -12,7 +12,7 @@ nav_order: 3
 ---
 
 > "O God, give us the serenity to accept what cannot be changed, the courage to change what can be changed, and the wisdom to know the one from the other."  
-> — Wygal, W. (1940). We Plan Our Own Worship Services. ([link](https://books.google.com.tw/books/about/We_Plan_Our_Own_Worship_Services.html?id=-0eaJYb0mKwC&redir_esc=y))
+> — Wygal, W. (1940). We Plan Our Own Worship Services. ([link](https://books.google.com.tw/books/about/We_Plan_Our_Own_Worship_Services.html?id=-0eaJYb0mKwC&redir_esc=y){: .link-chip })
 
 ---
 

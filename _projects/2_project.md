@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Implement human face recognition and character verification by image processing techniques
-description: Digital Image and Signal Processing Lab, National Taiwan University  
+title: Implement Human Face Recognition and Character Verification by Image Processing Techniques
+description: Digital Image and Signal Processing Lab, National Taiwan University, Taipei, Taiwan  
 #img: assets/img/3.jpg
 importance: 2
 category: research-related
 
 
 ---
-Mentor: [Prof. Jian-Jiun Ding](https://www.ee.ntu.edu.tw/profile1.php?teacher_id=942019)
+Mentor: [Prof. Jian-Jiun Ding](https://www.ee.ntu.edu.tw/profile1.php?teacher_id=942019){: .link-chip }
 
 
 I implemented two distinct verification systems to build hands-on skills in Python, image processing, and classical machine learning.
