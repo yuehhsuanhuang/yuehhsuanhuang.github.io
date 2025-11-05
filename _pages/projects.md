@@ -1,12 +1,13 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: I am grateful for the opportunity to have gained the following experience. My mentors have been invaluable in my journey. They not only helped me to think like an engineer but also inspired me to pay attention to the world surrounding me. Feel free to check out these experiences.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [industry-related, research-related]
 horizontal: false
+collection: true
 ---
 
 <!-- pages/projects.md -->
@@ -29,7 +30,7 @@ horizontal: false
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}

@@ -1,80 +1,46 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: AI-Powered Product Compliance System for a Leading E-commerce Platform
+description: momo.com Inc., Taipei, Taiwan
+#img:
 importance: 3
-category: fun
+category: industry-related
 ---
+{: .text-justify}
+At Momo, our four-person team built a compliance detection pipeline for over 4,700 e-commerce products. We integrated OCR, LLM-based judgment, and n8n automation, achieving 5× more violations than the original method.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+{: .text-justify}
+I designed the core workflow, integrating OCR, a Llama-based text analyzer, and a LLaVA image analyzer.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+{: .text-justify}
+Inspired by an industry mentor’s challenge on how to incorporate our work in their daily workflow, I later on independently developed an n8n automated workflow prototype. This prototype is expected to boost processing efficiency by 6x and create a scalable, maintainable solution.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-1 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/project4_momoworkflow.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    This image demonstrates the flow of our work. 
 </div>
+
+
+
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/project4_momodemo1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-2 mt-md-1">
+        {% include figure.liquid loading="eager" path="assets/img/projects/project4_momodemo2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Both pictures are examples of items that we found but the momo official did not found.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
