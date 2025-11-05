@@ -1442,3 +1442,8 @@ figure.cover {
     background-color: color-mix(in srgb, var(--global-theme-color) 45%, transparent);
   }
 }
+
+// Utility class for justified text blocks
+.text-justify {
+  text-align: justify;
+}

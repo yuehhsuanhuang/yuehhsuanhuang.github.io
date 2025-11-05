@@ -6,9 +6,14 @@ description: momo.com Inc., Taipei, Taiwan
 importance: 3
 category: industry-related
 ---
-I was the sole technical lead a cross-disciplinary team in a collaboration with momo, Taiwan's leading e-commerce platform, to identify products violating the Tobacco Hazards Prevention Act. I designed the core workflow, integrating OCR, a Llama-based text analyzer, and a LLaVA-powered image screener. A key part of my role involved mentoring my three non-technical teammates, pragmatically adapting our toolset (e.g., pivoting from YOLO to the more intuitive LLaVA) to empower them to contribute effectively.
+{: .text-justify}
+At Momo, our four-person team built a compliance detection pipeline for over 4,700 e-commerce products. We integrated OCR, LLM-based judgment, and n8n automation, achieving 5× more violations than the original method.
 
-Inspired by an industry mentor’s challenge on operationalizing our work, I later on independently developed a n8n automated workflow, boosting processing efficiency by 6x and creating a scalable, maintainable solution.
+{: .text-justify}
+I designed the core workflow, integrating OCR, a Llama-based text analyzer, and a LLaVA image analyzer.
+
+{: .text-justify}
+Inspired by an industry mentor’s challenge on how to incorporate our work in their daily workflow, I later on independently developed an n8n automated workflow prototype. This prototype is expected to boost processing efficiency by 6x and create a scalable, maintainable solution.
 
 
 <div class="row">

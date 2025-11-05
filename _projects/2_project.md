@@ -10,12 +10,15 @@ category: research-related
 ---
 Mentor: [Prof. Jian-Jiun Ding](https://www.ee.ntu.edu.tw/profile1.php?teacher_id=942019){: .link-chip }
 
-
+{: .text-justify}
 I implemented two distinct verification systems to build hands-on skills in Python, image processing, and classical machine learning.
 
-For face detection, I realized a multi-stage pipeline. The process began by segmenting skin-tone pixels with a custom-trained SVM, followed by ellipse fitting to isolate potential face regions. Convolutional methods were then employed to generate eye and mouth maps for eye & mouth detection. By enforcing strict geometric consistency rules, the system achieved a flawless **1.0 precision and a 0.955 F1-score on our private dataset with 80+ pictures.**
+{: .text-justify}
+For face detection, I realized a multi-stage pipeline. The process began by segmenting skin-tone pixels with a custom-trained SVM, followed by ellipse fitting to spot potential face regions. Convolutional methods were then employed to generate eye and mouth maps for eye & mouth detection. By enforcing geometric rules, the system achieved a **1.0 precision and a 0.955 F1-score on our private dataset with 80+ pictures.**
 
-For signature verification, I trained a SVM classifier by experimenting with different feature combination. These features quantified zonal pixel density and the geometric relationships between stroke inflection points, enabling the model to achieve **88% accuracy in distinguishing between 1,000 genuine and forged samples.** 
+
+{: .text-justify}
+For signature verification, I trained a SVM classifier by experimenting with different feature combination. These features quantified pixel density and the geometric relationships between stroke inflection points. The model to achieve **88% accuracy in distinguishing between 1,000 genuine and forged samples.** 
 
 
 

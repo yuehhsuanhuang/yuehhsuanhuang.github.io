@@ -7,10 +7,10 @@ importance: 4
 category: industry-related
 ---
 
+{: .text-justify}
+Our work "Liver! So Tired" is a 2D  shooter game built from scratch in C++/SDL.The game humorously mocks the students' experience, where players fight off "course monsters" before a deadline.
 
-
-Our work "Liver! So Tired" is a 2D side-scrolling shooter built from scratch in C++/SDL.The game humorously gamifies the student experience, where players fight off "course monsters" before a deadline.
-
+{: .text-justify}
 My specific responsibility was the Monster and Bed classes. My implementation follows the OOP principles, and I collaborated with my teammates to put our characters to life. Beyond programming, I also contributed original hand-drawn art assets, helping to define the game's unique visual style.
 
 

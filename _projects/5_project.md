@@ -11,11 +11,17 @@ category: industry-related
 [Demo video link](https://youtu.be/zepfCfav4Hw){: .link-chip } | 
 [GitHub Repo](https://github.com/yuehhsuanhuang/2024Fall-Bio-Lab-Final-Project){: .link-chip }
 
-I was responsible for implementing the signal processing step for a smart alarm prototype designed to enhance sleep quality by dynamically setting an alarm based on true sleep onset. Our system addresses the failure of common apps by using precise EEG data instead of unreliable microphone audio.
 
-My primary task was translating raw, noisy EEG data into a reliable sleep marker. To achieve this, I first used a Python preprocessing filter denoise the EEG data. I then use bandpass filtering and Morlet wavelet convolution to precisely identify sleep spindles, a key indicator of entering Stage 2 sleep.
+{: .text-justify}
+I was responsible for implementing the signal processing step for a smart alarm prototype. This alarm allows dynamically adjusting the wake-up time with the detection of a true sleep onset. Our system addresses the failure of common apps by using precise EEG data instead of unreliable microphone audio.
 
-This processing engine was proceedingly linked with an EEG sensor, an Arduino controller, and a user-facing app. Our a full-stack prototype, demonstrated via real-time simulation, proved the concept’s viability for a more biologically-attuned sleep experience.
+
+{: .text-justify}
+My primary task was translating raw, noisy EEG data into a reliable sleep marker. I first used a Python preprocessing filter to denoise the EEG data. Then, I applied bandpass filtering and Morlet wavelet convolution to precisely identify sleep spindles, a key indicator of entering Stage 2 sleep.
+
+
+{: .text-justify}
+This processing engine was linked with an EEG sensor, an Arduino controller, and a user-facing app. Our full-stack prototype, demonstrated via real-time simulation, proved the concept’s viability for a more natural and smooth sleep experience.
 
 
 
