@@ -6,10 +6,10 @@ permalink: /
 
 profile:
   align: right
-  image: bluey.png
+  image: mewithcat.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Me & my awkward dog sweetie</p>
+    <p>Me & my cat</p>
     
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
