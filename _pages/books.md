@@ -8,15 +8,15 @@ collection: books
 
 ## Books that I am reading, or have read, in 2026
 
-> 她厭男，她是我女友
+> The Safekeep
 >
-> -- 閔智炯 (2021). 皇冠出版社.
+> -- van der Wouden, Y. (2024). Avid Reader Press.
 
 ---
 
-> 我厭男
+> Love in the Time of Cholera
 >
-> -- Harmange, P. (2023). 寶瓶文化.
+> -- García Márquez, G. (1985). Vintage International.
 
 ---
 
