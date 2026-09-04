@@ -1,12 +1,70 @@
 ---
 layout: page
-title: Bookshelf
+title: Bookshelf & Films
 permalink: /books/
 nav: false
 collection: books
 ---
 
-## Books that I am reading, have read, or will read (2025)
+## Books that I am reading, or have read, in 2026
+
+> 她厭男，她是我女友
+>
+> -- 閔智炯 (2021). 皇冠出版社.
+
+---
+
+> 我厭男
+>
+> -- Harmange, P. (2023). 寶瓶文化.
+
+---
+
+> Ways of Seeing
+>
+> -- Berger, J. (1972).
+
+---
+
+> On Earth We're Briefly Gorgeous
+>
+> -- Vuong, O. (2019).
+
+---
+
+## Films that I have watched in 2026
+
+> Sinners
+>
+> -- dir. Ryan Coogler (2025)
+
+---
+
+> Farewell My Concubine 霸王別姬
+>
+> -- dir. Chen Kaige 陳凱歌 (1993)
+
+---
+
+> Marty Supreme
+>
+> -- dir. Josh Safdie (2025)
+
+---
+
+> Challengers
+>
+> -- dir. Luca Guadagnino (2024)
+
+---
+
+> Raise the Red Lantern 大紅燈籠高高掛
+>
+> -- dir. Zhang Yimou 張藝謀 (1991)
+
+---
+
+## Books that I have read in 2025
 
 > Think Like a Monk: Train Your Mind for Peace and Purpose Every Day
 >
