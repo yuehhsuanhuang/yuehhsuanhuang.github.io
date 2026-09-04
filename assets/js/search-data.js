@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "Bookshelf",
+        },{id: "dropdown-bookshelf-amp-films",
+              title: "Bookshelf &amp; Films",
               description: "",
               section: "Dropdown",
               handler: () => {
@@ -392,22 +392,20 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-pursuing-a-bachelor-s-degree-in-electrical-engineering-at-national-taiwan-university-ongoing",
-          title: 'Started pursuing a bachelor’s degree in Electrical Engineering at National Taiwan University. (Ongoing)...',
-          description: "",
-          section: "News",},{id: "news-completed-the-undergraduate-summer-research-internship-program-at-the-institute-of-physics-academia-sinica",
+      },{id: "news-completed-the-undergraduate-summer-research-internship-program-at-the-institute-of-physics-academia-sinica",
           title: 'Completed the undergraduate summer research internship program at the Institute of Physics, Academia...',
           description: "",
           section: "News",},{id: "news-i-got-accepted-to-the-business-analytics-program-college-of-management-at-national-taiwan-university",
           title: 'I got accepted to the Business Analytics Program, College of Management at National...',
           description: "",
-          section: "News",},{id: "news-currently-interning-with-the-ai-future-technology-department-at-tvbs-ongoing",
-          title: 'Currently interning with the AI Future Technology department at TVBS. (Ongoing)',
+          section: "News",},{id: "news-completed-a-9-month-internship-with-the-ai-future-technology-department-at-tvbs",
+          title: 'Completed a 9-month internship with the AI Future Technology department at TVBS.',
+          description: "",
+          section: "News",},{id: "news-graduated-with-a-bachelor-s-degree-in-electrical-engineering-from-national-taiwan-university",
+          title: 'Graduated with a bachelor’s degree in Electrical Engineering from National Taiwan University.',
+          description: "",
+          section: "News",},{id: "news-starting-my-msece-in-the-software-engineering-and-systems-track-at-the-university-of-texas-at-austin",
+          title: 'Starting my MSECE in the Software Engineering and Systems track at The University...',
           description: "",
           section: "News",},{id: "projects-parameter-efficient-transfer-learning-for-multi-modal-sequential-recommendation",
           title: 'Parameter-Efficient Transfer Learning for Multi-Modal Sequential Recommendation',
