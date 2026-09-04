@@ -9,7 +9,7 @@ profile:
   image: mewithcat.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Me & my cat</p>
+    <div style="text-align: center;">Me & cat</div>
     
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -38,10 +38,19 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.... -->
 
-{: .text-justify}
-My name is Yueh-Hsuan (Helena) Huang, and I am a fourth-grade Electrical Engineering student at [National Taiwan University](https://www.ntu.edu.tw/){: .link-chip }. I am an engineer that has a passion for building intelligent, cross-disciplinary solutions. My work focuses on the intersection of machine learning, software engineering, and real-world application. <!--My approach to problem-solving is guided by the intuition of a researcher and the discipline of an athlete. -->I am actively seeking opportunities in the media or e-commerce industries where I can apply my skills in a dynamic and collaborative environment. 
+<div class="text-justify" markdown="1">
 
-Beyond my academic and professional life, sports are a significant part of who I am. <!--As the Vice Captain of the NTUEE women's basketball team for the past 1.5 years (and continuing for the next year), I've learned invaluable lessons from basketball and sports in general. -->To understand my relationship with athletics and to learn more about me as a person, you can visit my [Sports](/sports/){: .link-chip }, and to gain further insight into my values, please check out my [Quotes](/publications/){: .link-chip }.
+My name is Yueh-Hsuan (Helen) Huang. I am a first-year MSECE student in the Software Engineering and Systems track at [The University of Texas at Austin](https://www.utexas.edu/){: .link-chip }. I received my bachelor’s degree in Electrical Engineering from [National Taiwan University](https://www.ntu.edu.tw/){: .link-chip }.
+
+
+I am interested in applied artificial intelligence and in building intelligent, cross-disciplinary software systems that solve real problems. My experience includes recommendation systems, speech processing, generative AI, OCR, multimodal systems, and automated workflows. I have also worked on projects in the media and e-commerce industries.
+
+
+Beyond my academic and professional life, sports are a significant part of who I am. To understand my relationship with athletics, you can visit my [Sports](/sports/){: .link-chip } page.
+I also enjoy literature and film, and you can find some of the books and works that have shaped how I think on the [Bookshelf & Films](/books/){: .link-chip } page.
+To gain further insight into my values, please check out my [Quotes](/quotes/){: .link-chip }.
+
+</div>
 
 
 
